@@ -14,7 +14,7 @@ function fetchData() {
                 imageContainer.appendChild(image);
             }
             else {
-                prompt('Произошла ошибка при получении данных');
+                alert('Произошла ошибка при получении данных');
             }
         }
     };
